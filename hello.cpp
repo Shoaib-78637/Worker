@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-	//Default is "World"
-	//Loubbster
-	string name="WOold"||ARGV.first;
+	string name;
+	cout<<"Enter your Name ";
+	cin>>name;
 	cout<<"Hello, "<<name<<" !";
-	cout<< "hello ";
+	return 0;
 }
